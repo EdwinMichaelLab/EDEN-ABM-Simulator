@@ -7,8 +7,6 @@ import random
 import threading
 import sys
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
-
 class Person():
     """Person Agent."""
     def __init__(self, pid, age, gender, race,  x, y, uid, loc_type, state, model):
