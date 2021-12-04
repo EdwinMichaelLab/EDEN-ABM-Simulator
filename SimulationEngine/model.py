@@ -21,6 +21,8 @@ import multiprocessing as mp
 from multiprocessing import Manager, Pool, Lock
 import distutils.dir_util
 import asyncio
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 class Model():
     def __init__(self, ZIP):

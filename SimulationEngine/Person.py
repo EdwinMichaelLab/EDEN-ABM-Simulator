@@ -5,6 +5,9 @@ import pandas as pd
 import os
 import random
 import threading
+import sys
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
 
 class Person():
     """Person Agent."""
